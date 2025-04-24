@@ -1,0 +1,33 @@
+{
+    "name": "personal_finance_app_development",
+    "version": "1.0.0",
+    "description": "A full-stack web application for managing personal finances, tracking expenses and income, setting budgets, and generating reports.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Manikanta1239/Personal_Finance_App_Development.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+      "url": "https://github.com/Manikanta1239/Personal_Finance_App_Development/issues"
+    },
+    "homepage": "https://github.com/Manikanta1239/Personal_Finance_App_Development#readme",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^16.4.7",
+      "express": "^4.21.2",
+      "pg": "^8.13.3",
+      "pg-hstore": "^2.3.4",
+      "sequelize": "^6.37.6"
+    },
+    "devDependencies": {
+      "nodemon": "^3.1.9"
+    }
+  }
